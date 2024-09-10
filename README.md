@@ -38,9 +38,9 @@ En la carpeta `data/processed/` se encuentran los datos de muestra para fines de
 - **Python:** 3.8 o superior
 - **Librerías:**
   - **pandas:**
-    - **scikit-learn:**
- - **dash:**
- - **(Más detalles en requirements.txt):**
+  - **scikit-learn:**
+  - **dash:**
+  - **(Más detalles en requirements.txt):**
 
 
 ## Licencia
