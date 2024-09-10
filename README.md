@@ -44,7 +44,7 @@ En la carpeta `data/processed/` se encuentran los datos de muestra para fines de
 
 
 ## Licencia
-Este proyecto está bajo la licencia [Nombre de la Licencia] - ver el archivo LICENSE para más detalles.
+Este proyecto está bajo la licencia [Nombre de la Licencia] - ver el archivo `LICENSE` para más detalles.
 
 ## Restricciones de Uso
 El proyecto es de uso libre para replicación y análisis en contextos no comerciales. No se permite el uso del código en implementaciones comerciales sin autorización previa.
