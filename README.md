@@ -40,7 +40,7 @@ En la carpeta `data/processed/` se encuentran los datos de muestra para fines de
   - **pandas:**
   - **scikit-learn:**
   - **dash:**
-  - **(Más detalles en requirements.txt):**
+  - **(Más detalles en `requirements.txt)`:**
 
 
 ## Licencia
