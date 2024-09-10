@@ -15,8 +15,8 @@ def train_model(train_data):
 
 def evaluate_model(model, test_data):
     """Evalúa el modelo en los datos de prueba."""
-    X_test = test_data.drop(columns=['target'])
-    y_test = test_data['target']
+    X_test = test_data.drop(columns=['Need_Maintenance'])
+    y_test = test_data['Need_Maintenance']
     
     predictions = model.predict(X_test)
     accuracy = accuracy_score(y_test, predictions)

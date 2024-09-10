@@ -32,7 +32,30 @@ Este proyecto implementa un modelo de mantenimiento predictivo para camiones CAE
 Se proporciona un notebook en `notebooks/example_usage.ipynb` que muestra cómo realizar el análisis y replicar los resultados con datos de muestra.
 
 ### Datos de Muestra
-En la carpeta `data/processed/` se encuentran los datos de muestra para fines de prueba.
+En la carpeta `data/processed/` se encuentran los datos de muestra para fines de prueba. El archivo `camiones_caex_data.csv` contiene características de los vehículos y una variable objetivo que indica si el vehículo necesita mantenimiento.
+
+Estructura del Dataset
+
+- `Vehicle_Model`: Tipo de vehículo (Car, SUV, Van, Truck, Bus, Motorcycle).
+- `Mileage`: Total de kilómetros recorridos.
+- `Maintenance_History`: Historia de mantenimiento del vehículo.
+- `Reported_Issues`: Número de problemas reportados.
+- `Vehicle_Age`: Edad del vehículo en años.
+- `Fuel_Type`: Tipo de combustible utilizado.
+- `Transmission_Type`: Tipo de transmisión.
+- `Engine_Size`: Tamaño del motor en cc.
+- `Odometer_Reading`: Lectura actual del odómetro.
+- `Last_Service_Date`: Fecha del último servicio.
+- `Warranty_Expiry_Date`: Fecha de expiración de la garantía.
+- `Owner_Type`: Tipo de propietario del vehículo.
+- `Insurance_Premium`: Monto del seguro.
+- `Service_History`: Número de servicios realizados.
+- `Accident_History`: Número de accidentes.
+- `Fuel_Efficiency`: Eficiencia de combustible en km/l.
+- `Tire_Condition`: Estado de los neumáticos.
+- `Brake_Condition`: Estado de los frenos.
+- `Battery_Status`: Estado de la batería.
+- `Need_Maintenance`: Indicador de si el vehículo necesita mantenimiento (1 = Sí, 0 = No).
 
 ## Requisitos del Sistema
 - **Python:** 3.8 o superior
@@ -40,7 +63,7 @@ En la carpeta `data/processed/` se encuentran los datos de muestra para fines de
   - **pandas:**
   - **scikit-learn:**
   - **dash:**
-  - **(Más detalles en `requirements.txt)`:**
+  - **(Más detalles en `requirements.txt`):**
 
 
 ## Licencia

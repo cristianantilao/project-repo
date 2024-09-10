@@ -1,4 +1,3 @@
-# preprocessing.py
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
@@ -9,7 +8,7 @@ def load_data(file_path):
 def clean_data(df):
     """Limpieza de datos: manejo de valores nulos y formateo."""
     df = df.dropna()  # Elimina filas con valores nulos
-    df['timestamp'] = pd.to_datetime(df['timestamp'])  # Convierte a datetime
+    df['Last_Service_Date'] = pd.to_datetime(df['Last_Service_Date'])  # Convierte a datetime
     return df
 
 def split_data(df, test_size=0.2):

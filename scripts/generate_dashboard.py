@@ -15,7 +15,7 @@ app.layout = html.Div([
     
     dcc.Graph(
         id='example-graph',
-        figure=px.scatter(data, x='timestamp', y='sensor_value', color='target')
+        figure=px.scatter(data, x='Last_Service_Date', y='Reported_Issues', color='target')
     )
 ])
 
