@@ -13,23 +13,23 @@ Este proyecto implementa un modelo de mantenimiento predictivo para camiones CAE
    cd project-repo
 2. Instalar dependencias:
    ```bash
-   !pip install -r requirements.txt
+   pip install -r requirements.txt
 
 ### Cómo Ejecutarlo
 1. Preprocesamiento de Datos: Ejecutar el script de preprocesamiento para transformar los datos crudos en formato utilizable:
    ```bash
-   !python3 scripts/preprocessing.py
+   python scripts/preprocessing.py
 
 3. Entrenamiento del Modelo: Entrenar el modelo de mantenimiento predictivo:
    ```bash
-   !python3 scripts/train_model.py
+   python scripts/train_model.py
 
 5. Generación del Dashboard: Una vez entrenado el modelo, ejecutar el dashboard:
    ```bash
-   !python3 scripts/generate_dashboard.py
+   python scripts/generate_dashboard.py
 
 ### Ejemplo de Caso de Uso
-Se proporciona un notebook en `notebooks/example_usage.ipynb` que muestra cómo replicar los resultados con datos de muestra.
+Se proporciona un notebook en `notebooks/example_usage.ipynb` que muestra cómo realizar el análisis y replicar los resultados con datos de muestra.
 
 ### Datos de Muestra
 En la carpeta `data/processed/` se encuentran los datos de muestra para fines de prueba. El archivo `camiones_caex_data.csv` contiene características de los vehículos y una variable objetivo que indica si el vehículo necesita mantenimiento.
