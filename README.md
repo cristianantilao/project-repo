@@ -49,8 +49,8 @@ Este proyecto está bajo la licencia [Nombre de la Licencia] - ver el archivo `L
 ## Restricciones de Uso
 El proyecto es de uso libre para replicación y análisis en contextos no comerciales. No se permite el uso del código en implementaciones comerciales sin autorización previa.
 
-## Créditos
-Equipo de Desarrollo de [Nombre de la Empresa]
+## Autor
+Cristian Antilao
 
 ### 3. Recomendaciones adicionales
 
