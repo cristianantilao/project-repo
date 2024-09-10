@@ -31,7 +31,7 @@ Este proyecto implementa un modelo de mantenimiento predictivo para camiones CAE
 ### Ejemplo de Caso de Uso
 Se proporciona un notebook en `notebooks/example_usage.ipynb` que muestra cómo realizar el análisis y replicar los resultados con datos de muestra.
 
-Datos de Muestra
+###Datos de Muestra
 En la carpeta `data/processed/` se encuentran los datos de muestra para fines de prueba.
 
 ## Requisitos del Sistema
