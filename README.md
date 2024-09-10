@@ -9,7 +9,7 @@ Este proyecto implementa un modelo de mantenimiento predictivo para camiones CAE
 ### Requisitos
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/usuario/project-repo.git
+   git clone https://github.com/cristianantilao/project-repo.git
    cd project-repo
 2. Instalar dependencias:
    ```bash
