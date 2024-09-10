@@ -6,42 +6,37 @@ Este proyecto implementa un modelo de mantenimiento predictivo para camiones CAE
 
 ## Instrucciones de Uso
 
-### 1. Preprocesamiento de Datos
+### Requisitos
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/usuario/project-repo.git
+   cd project-repo
+2. Instalar dependencias:
+   pip install -r requirements.txt
 
-Primero, asegúrate de que tienes los datos crudos en el directorio `data/raw`. Luego, ejecuta el script de preprocesamiento:
+Cómo Ejecutarlo
+1. Preprocesamiento de Datos: Ejecutar el script de preprocesamiento para transformar los datos crudos en formato utilizable:
+   python scripts/preprocessing.py
 
-```bash
-python scripts/preprocessing.py
+2. Entrenamiento del Modelo: Entrenar el modelo de mantenimiento predictivo:
+   python scripts/train_model.py
 
-Este script cargará, limpiará y dividirá los datos en conjuntos de entrenamiento y prueba, guardándolos en data/processed/.
+3. Generación del Dashboard: Una vez entrenado el modelo, ejecutar el dashboard:
+   python scripts/generate_dashboard.py
 
-Entrenamiento del Modelo
-Una vez procesados los datos, puedes entrenar el modelo ejecutando el siguiente comando:
+Ejemplo de Caso de Uso
+Se proporciona un notebook en notebooks/example_usage.ipynb que muestra cómo realizar el análisis y replicar los resultados con datos de muestra.
 
-python scripts/train_model.py
-Este script entrenará un modelo de Random Forest basado en los datos procesados y lo guardará en models/trained_model.pkl.
+Datos de Muestra
+En la carpeta data/processed/ se encuentran los datos de muestra para fines de prueba.
 
-Generación del Dashboard
-Finalmente, para generar un dashboard interactivo que visualice los datos y alertas de mantenimiento, ejecuta el siguiente script:
-python scripts/generate_dashboard.py
-Esto iniciará un servidor local y podrás visualizar el dashboard en tu navegador.
-
-Requisitos
-Python 3.8 o superior
-Librerías necesarias (puedes instalarlas con pip install -r requirements.txt):
+Requisitos del Sistema
+Python: 3.8 o superior
+Librerías:
 pandas
 scikit-learn
 dash
-plotly
-
-Reproducción y Configuración Local
-Clona este repositorio:
-git clone https://github.com/tu-usuario/tu-repositorio.git
-cd tu-repositorio
-
-Instala las dependencias necesarias:
-pip install -r requirements.txt
-Sigue los pasos anteriores para preprocesar los datos, entrenar el modelo y generar el dashboard.
+(Más detalles en requirements.txt)
 
 Licencia
 Este proyecto está bajo la licencia [Nombre de la Licencia] - ver el archivo LICENSE para más detalles.
@@ -49,6 +44,8 @@ Este proyecto está bajo la licencia [Nombre de la Licencia] - ver el archivo LI
 Restricciones de Uso
 El proyecto es de uso libre para replicación y análisis en contextos no comerciales. No se permite el uso del código en implementaciones comerciales sin autorización previa.
 
+Créditos
+Equipo de Desarrollo de [Nombre de la Empresa]
 
 ### 3. Recomendaciones adicionales
 
