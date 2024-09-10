@@ -89,4 +89,4 @@ El proyecto es de uso libre para replicación y análisis en contextos no comerc
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
 ## Autor
-Cristian Antilao
+Cristian Antilao: www.linkedin.com/in/cristianantilao
