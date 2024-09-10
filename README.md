@@ -12,25 +12,29 @@ Este proyecto implementa un modelo de mantenimiento predictivo para camiones CAE
    git clone https://github.com/usuario/project-repo.git
    cd project-repo
 2. Instalar dependencias:
+   ```bash
    pip install -r requirements.txt
 
-Cómo Ejecutarlo
+### Cómo Ejecutarlo
 1. Preprocesamiento de Datos: Ejecutar el script de preprocesamiento para transformar los datos crudos en formato utilizable:
+   ```bash
    python scripts/preprocessing.py
 
-2. Entrenamiento del Modelo: Entrenar el modelo de mantenimiento predictivo:
+3. Entrenamiento del Modelo: Entrenar el modelo de mantenimiento predictivo:
+   ```bash
    python scripts/train_model.py
 
-3. Generación del Dashboard: Una vez entrenado el modelo, ejecutar el dashboard:
+5. Generación del Dashboard: Una vez entrenado el modelo, ejecutar el dashboard:
+   ```bash
    python scripts/generate_dashboard.py
 
-Ejemplo de Caso de Uso
+### Ejemplo de Caso de Uso
 Se proporciona un notebook en notebooks/example_usage.ipynb que muestra cómo realizar el análisis y replicar los resultados con datos de muestra.
 
 Datos de Muestra
 En la carpeta data/processed/ se encuentran los datos de muestra para fines de prueba.
 
-Requisitos del Sistema
+## Requisitos del Sistema
 Python: 3.8 o superior
 Librerías:
 pandas
@@ -38,13 +42,13 @@ scikit-learn
 dash
 (Más detalles en requirements.txt)
 
-Licencia
+## Licencia
 Este proyecto está bajo la licencia [Nombre de la Licencia] - ver el archivo LICENSE para más detalles.
 
-Restricciones de Uso
+## Restricciones de Uso
 El proyecto es de uso libre para replicación y análisis en contextos no comerciales. No se permite el uso del código en implementaciones comerciales sin autorización previa.
 
-Créditos
+## Créditos
 Equipo de Desarrollo de [Nombre de la Empresa]
 
 ### 3. Recomendaciones adicionales
