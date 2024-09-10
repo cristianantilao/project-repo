@@ -2,7 +2,22 @@
 
 ## Descripción
 
-Este proyecto implementa un modelo de mantenimiento predictivo para camiones CAEX en operaciones mineras. Utiliza datos históricos y en tiempo real para predecir fallos y generar alertas automáticas de mantenimiento. El objetivo es optimizar los tiempos de operación y reducir los costos asociados a fallos imprevistos.
+Este proyecto implementa un modelo de mantenimiento predictivo para camiones CAEX en operaciones mineras, utilizando técnicas de machine learning. Utiliza datos históricos y en tiempo real para predecir fallos y generar alertas automáticas de mantenimiento. El objetivo es optimizar los tiempos de operación y reducir los costos asociados a fallos imprevistos.
+
+### Contexto del Problema
+
+En la operación minera, los camiones CAEX enfrentan condiciones extremas que pueden provocar fallos inesperados, lo que resulta en paradas no planificadas y aumento de costos. El mantenimiento actual es reactivo, lo que puede llevar a intervenciones innecesarias o reparaciones urgentes. Este proyecto propone una solución basada en machine learning para predecir la necesidad de mantenimiento y evitar estos problemas.
+
+## Propuesta de Solución
+
+La solución propuesta consiste en construir un modelo predictivo que use datos históricos y en tiempo real para identificar si un camión requiere o no mantención. Se implementará un dashboard para visualizar las predicciones y generar alertas de mantenimiento preventivo.
+
+## Estructura del Repositorio
+- **data/:** Contiene el dataset utilizado para el análisis.
+- **scripts/:** Scripts Python para el procesamiento de datos y entrenamiento del modelo.
+- **notebooks/:** Jupyter Notebooks con ejemplos de uso y análisis.
+- **requirements.txt:** Lista de dependencias del proyecto.
+- **README.md:** Documentación del proyecto.
 
 ## Instrucciones de Uso
 
@@ -36,7 +51,6 @@ En la carpeta `data/processed/` se encuentran los datos de muestra para fines de
 
 Estructura del Dataset
 
-- `Vehicle_Model`: Tipo de vehículo (Car, SUV, Van, Truck, Bus, Motorcycle).
 - `Mileage`: Total de kilómetros recorridos.
 - `Maintenance_History`: Historia de mantenimiento del vehículo.
 - `Reported_Issues`: Número de problemas reportados.
@@ -47,8 +61,6 @@ Estructura del Dataset
 - `Odometer_Reading`: Lectura actual del odómetro.
 - `Last_Service_Date`: Fecha del último servicio.
 - `Warranty_Expiry_Date`: Fecha de expiración de la garantía.
-- `Owner_Type`: Tipo de propietario del vehículo.
-- `Insurance_Premium`: Monto del seguro.
 - `Service_History`: Número de servicios realizados.
 - `Accident_History`: Número de accidentes.
 - `Fuel_Efficiency`: Eficiencia de combustible en km/l.
@@ -58,31 +70,23 @@ Estructura del Dataset
 - `Need_Maintenance`: Indicador de si el vehículo necesita mantenimiento (1 = Sí, 0 = No).
 
 ## Requisitos del Sistema
-- **Python:** 3.8 o superior
+- **Python:** 3.11 o superior
 - **Librerías:**
   - **pandas:**
   - **scikit-learn:**
   - **dash:**
   - **(Más detalles en `requirements.txt`):**
 
-
-## Licencia
-Este proyecto está bajo la licencia [Nombre de la Licencia] - ver el archivo `LICENSE` para más detalles.
+## Recursos Adicionales
+- **Documentación de Scikit-learn:** https://scikit-learn.org/stable/
+- **Documentación de Pandas:** https://pandas.pydata.org/
+- **Documentación de Dash:** https://dash.plotly.com/
 
 ## Restricciones de Uso
 El proyecto es de uso libre para replicación y análisis en contextos no comerciales. No se permite el uso del código en implementaciones comerciales sin autorización previa.
 
+## Licencia
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
 ## Autor
 Cristian Antilao
-
-### 3. Recomendaciones adicionales
-
-- **Datos de Muestra:** Incluye solo datos de muestra en el repositorio, evitando cualquier información sensible o confidencial.
-- **Dependencias:** Usa `requirements.txt` o un `environment.yml` para listar las dependencias exactas que el proyecto necesita.
-- **Documentación Técnica:** Proporciona links a la documentación de las librerías si se usan herramientas avanzadas.
-- **Licencia:** Escoge una licencia adecuada para la liberación del código (MIT, Apache, etc.).
-
-### 4. Validación Externa
-Para facilitar la validación externa, asegúrate de probar el repositorio en diferentes entornos, y que cualquier persona pueda replicar los resultados con las instrucciones proporcionadas.
-
-Esto asegurará la reproducibilidad del proyecto y que esté listo para la validación externa. ¿Te gustaría que te ayude con alguna parte en particular de esta configuración?
